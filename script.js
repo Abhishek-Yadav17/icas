@@ -11,3 +11,10 @@ setInterval(() => showSlide(index + 1), 4000);
 
 document.getElementById("prev").onclick = () => showSlide(index - 1);
 document.getElementById("next").onclick = () => showSlide(index + 1);
+
+const menuIcon = document.querySelector(".menu-icon");
+const mobileMenu = document.querySelector(".mobile-menu");
+
+menuIcon.addEventListener("click", () => {
+    mobileMenu.classList.toggle("show");
+});
