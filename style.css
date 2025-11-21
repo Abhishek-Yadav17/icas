@@ -24,6 +24,7 @@ body {
 
 .logo {
     width: 70px;
+    cursor: pointer;
 }
 
 .login-btn {
@@ -99,18 +100,6 @@ body {
     height: 100%;
     width: 100%;
     position: relative;
-}
-
-.arrow {
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    font-size: 35px;
-    color: #fff;
-    cursor: pointer;
-    z-index: 10;
-    padding: 10px;
-    user-select: none;
 }
 
 .slide {

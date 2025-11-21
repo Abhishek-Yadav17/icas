@@ -22,6 +22,7 @@ body {
 
 .logo {
     width: 70px;
+    cursor: pointer;
 }
 
 .login-btn {
@@ -131,11 +132,25 @@ body {
     overflow: hidden;
     border-radius: 12px;
     margin-bottom: 15px;
+    position: relative;
 }
 
-.video-box iframe {
+.course-video {
     width: 100%;
     height: 100%;
+    border-radius: 12px;
+    object-fit: cover;
+}
+
+.play-btn {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 40px;
+    color: white;
+    cursor: pointer;
+    opacity: 0.8;
 }
 
 .course-card h3 {
